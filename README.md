@@ -26,6 +26,7 @@
 - [ ] Mobile Frendly
 - [ ] bypass CAPTCHA
 - [ ] password error message
+- [ ] 24H clock
 <br>
 <!-- <a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
