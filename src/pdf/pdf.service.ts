@@ -133,7 +133,7 @@ export class PdfService {
 
    // await page.setViewport({ width: 1366, height: 768});
 
-   const buffer =   await page.pdf({ path: 'google.pdf',printBackground: true,width: '1900px' ,height: "1300px" });
+   const buffer =   await page.pdf({ printBackground: true,width: '1900px' ,height: "1300px" });
 
    await browser.close();
   //  const pathfile = path.join(__dirname, '../../google.pdf');
