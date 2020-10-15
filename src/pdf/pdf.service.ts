@@ -121,7 +121,7 @@ export class PdfService {
        height: 1080,
   
    });
-   const url = `http://localhost:3000/pdf/get?id=${body.id}&pass=${body.pass}`;
+   const url = `http://localhost:${process.env.PORT || 3000}/pdf/get?id=${body.id}&pass=${body.pass}`;
    console.log(url);
    
    await page.goto(url, {waitUntil: 'networkidle2'});
