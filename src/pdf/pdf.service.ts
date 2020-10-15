@@ -111,7 +111,7 @@ export class PdfService {
     async genPDF(body : pdfDto){
 
      
-      const browser = await puppeteer.launch({ headless: true ,args:["--ash-host-window-bounds=1920x1080", "--window-size=1920,1048", "--window-position=0,0",
+      const browser = await puppeteer.launch({ headless: true ,args:["--ash-host-window-bounds=1920x1080", "--window-size=1920,1048", "--window-position=0,0","--no-sendbox"
            
     ],defaultViewport: null , });
    const page = await browser.newPage();
