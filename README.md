@@ -22,6 +22,7 @@
 
 
     ### TODOs
+- [x] special characters password issue    
 - [ ] Add Loader
 - [ ] Mobile Frendly
 - [ ] bypass CAPTCHA
