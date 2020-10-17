@@ -2,6 +2,8 @@ import { Injectable } from '@nestjs/common';
 import { CourseDataModel, Day } from 'src/model/Coursedata';
 import * as Handlebars from 'hbs'
 import { Convert, RegisterableCourse, RegisterableSection } from 'src/model/data.model';
+import * as captcha from "async-captcha";
+const anticaptcha = new captcha(process.env.anticaptchakey, 2, 10);
 // import * as puppeteer from 'puppeteer';
 import { pdfDto } from './dtos/pdf.dtos';
 // import * as puppeteerextra from 'puppeteer-extra';
@@ -36,14 +38,24 @@ export class PdfService {
         }
       })
     )
-    const browser = await puppeteer.launch({headless: true ,args:["--no-sandbox"]});
+    const browser = await puppeteer.launch({headless: false,slowMo: 100 ,args:["--no-sandbox"]});
     const page = await browser.newPage();
     await page.goto('https://portal.aiub.edu/Login', { waitUntil: 'networkidle0' });
     console.log(`id ${id} pass ${pass}`);
+    console.log(process.env.anticaptchakey);
     
     await page.type('#username', id);
     await page.type('#password', pass);
-    await page.click('body > div > div > div > div > div:nth-child(2) > form > div:nth-child(4) > button'),
+    await page.click('body > div > div > div > div > div:nth-child(2) > form > div:nth-child(4) > button');
+    if (await page.$("#CaptchaImage") !== null) {
+      
+      console.log('captcha found');
+      const base64String = await page.screenshot({ encoding: "base64" });
+      const captchaCode = await anticaptcha.getResult(base64String);
+      await page.type("#CaptchaInputText", captchaCode);
+      await page.click('body > div > div > div > div > div:nth-child(2) > form > div:nth-child(4) > button');
+
+    }
     await page.goto('https://portal.aiub.edu/Student/Registration/GetPreReg', { waitUntil: 'networkidle0' });
 
 

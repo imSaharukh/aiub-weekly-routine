@@ -25,7 +25,7 @@
 - [x] special characters password issue    
 - [ ] Add Loader
 - [ ] Mobile Frendly
-- [ ] bypass CAPTCHA
+- [x] bypass CAPTCHA
 - [ ] password error message
 - [ ] 24H clock
 <br>
