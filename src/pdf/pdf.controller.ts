@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Header, HttpCode, Param, Post, Query, Render, Req, Res } from '@nestjs/common';
 import { PdfService } from './pdf.service';
 import * as puppeteer from 'puppeteer';
-import {Request} from 'express';
+import {query, Request} from 'express';
 import * as path from 'path';
 import fs from 'fs'
 
@@ -14,9 +14,11 @@ export class PdfController {
 
   @Get('get')
   @Render('index')
-  async getPdf(@Req() req: Request) {
+  async getPdf(@Req() req: Request ,  @Query() query:pdfDto) {
     console.log(req.query);
 
+    console.log("nest q" + query.pass);
+    
     const dto = req.query;
     console.log(dto);
     
@@ -24,9 +26,10 @@ export class PdfController {
     // console.log(idpass);
     
     // return idpass;
+    console.log("DTOS form quary" + dto.id.toString() , dto.pass.toString());
     
 
-    return await this.pdfService.getPDF(dto.id.toString() , dto.pass.toString());
+    return await this.pdfService.getPDF(dto.id.toString() , unescape(dto.pass as string));
   }
 
 
