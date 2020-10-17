@@ -38,7 +38,7 @@ export class PdfService {
         }
       })
     )
-    const browser = await puppeteer.launch({headless: false,slowMo: 100 ,args:["--no-sandbox"]});
+    const browser = await puppeteer.launch({headless: true,args:["--no-sandbox"]});
     const page = await browser.newPage();
     await page.goto('https://portal.aiub.edu/Login', { waitUntil: 'networkidle0' });
     console.log(`id ${id} pass ${pass}`);
