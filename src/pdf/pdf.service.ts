@@ -30,32 +30,33 @@ export class PdfService {
     console.log(id + ' ' + pass);
     const formData = { UserName: id, Password: pass };
     console.log("form data" + formData);
-    puppeteer.use(
-      RecaptchaPlugin({
-        provider: {
-          id: '2captcha',
-          token: '2544b812df612f08ab581ae82afb340d'
-        }
-      })
-    )
+
     const browser = await puppeteer.launch({headless: true,args:["--no-sandbox"]});
     const page = await browser.newPage();
-    await page.goto('https://portal.aiub.edu/Login', { waitUntil: 'networkidle0' });
+    await page.goto('https://portal.aiub.edu/Login', { waitUntil: 'networkidle0' ,timeout:0});
     console.log(`id ${id} pass ${pass}`);
     console.log(process.env.anticaptchakey);
     
     await page.type('#username', id);
     await page.type('#password', pass);
     await page.click('body > div > div > div > div > div:nth-child(2) > form > div:nth-child(4) > button');
-    if (await page.$("#CaptchaImage") !== null) {
-      
-      console.log('captcha found');
-      const base64String = await page.screenshot({ encoding: "base64" });
-      const captchaCode = await anticaptcha.getResult(base64String);
-      await page.type("#CaptchaInputText", captchaCode);
-      await page.click('body > div > div > div > div > div:nth-child(2) > form > div:nth-child(4) > button');
 
-    }
+try {
+  await page.$("#CaptchaInputText");
+
+        
+  console.log('captcha found');
+  const base64String = await page.screenshot({ encoding: "base64" });
+  const captchaCode = await anticaptcha.getResult(base64String);
+  // console.log(`captcha code ${captchaCode}`);
+  
+  await page.type("#CaptchaInputText", captchaCode);
+  await page.click('body > div > div > div > div > div:nth-child(2) > form > div:nth-child(4) > button');
+} catch (error) {
+console.log(error);
+}
+
+
     await page.goto('https://portal.aiub.edu/Student/Registration/GetPreReg', { waitUntil: 'networkidle0' });
 
 
