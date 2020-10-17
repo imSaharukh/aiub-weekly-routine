@@ -1,0 +1,723 @@
+{
+    "RegisterableCourses": [
+        {
+            "ID": 16,
+            "Title": "ALGORITHMS",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 1,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [
+                {
+                    "ID": 133284,
+                    "ClassID": "00008",
+                    "Title": "A",
+                    "Description": "ALGORITHMS [A]",
+                    "Routine": "Tuesday 2:00 PM - 4:00 PM Theory [D0610] \u0026 Sunday 2:00 PM - 5:00 PM Lab [D0212]  ",
+                    "Capacity": 41,
+                    "StudentCount": 41,
+                    "Registered": true
+                    
+                    
+                    
+                }
+            ],
+            "CurriculumID": 309,
+            "Status": "Registered"
+        },
+        {
+            "ID": 43,
+            "Title": "CHEMISTRY",
+            "LecCredit": 3,
+            "SciCredit": 1,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [],
+            "CurriculumID": 309,
+            "Status": "None"
+        },
+        {
+            "ID": 166,
+            "Title": "MATRICES, VECTORS, FOURIER ANALYSIS",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [
+                {
+                    "ID": 134646,
+                    "ClassID": "01370",
+                    "Title": "B",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [B]",
+                    "Routine": "Monday 8:00 AM - 9:30 AM Theory [6111] \u0026 Wednesday 8:00 AM - 9:30 AM Theory [6111]  ",
+                    "Capacity": 40,
+                    "StudentCount": 38,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134647,
+                    "ClassID": "01371",
+                    "Title": "C",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [C]",
+                    "Routine": "Sunday 9:30 AM - 11:00 AM Theory [6111] \u0026 Tuesday 9:30 AM - 11:00 AM Theory [6111]  ",
+                    "Capacity": 40,
+                    "StudentCount": 35,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134648,
+                    "ClassID": "01372",
+                    "Title": "D",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [D]",
+                    "Routine": "Monday 9:30 AM - 11:00 AM Theory [6112] \u0026 Wednesday 9:30 AM - 11:00 AM Theory [6112]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134649,
+                    "ClassID": "01373",
+                    "Title": "E",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [E]",
+                    "Routine": "Sunday 11:00 AM - 12:30 PM Theory [6203] \u0026 Tuesday 11:00 AM - 12:30 PM Theory [6203]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                
+                    
+                    
+                },
+                {
+                    "ID": 134650,
+                    "ClassID": "01374",
+                    "Title": "F",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [F]",
+                    "Routine": "Monday 11:00 AM - 12:30 PM Theory [6111] \u0026 Wednesday 11:00 AM - 12:30 PM Theory [6111]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": true
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134651,
+                    "ClassID": "01375",
+                    "Title": "G",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [G]",
+                    "Routine": "Sunday 12:30 PM - 2:00 PM Theory [6111] \u0026 Tuesday 12:30 PM - 2:00 PM Theory [6111]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134652,
+                    "ClassID": "01376",
+                    "Title": "H",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [H]",
+                    "Routine": "Monday 12:30 PM - 2:00 PM Theory [6111] \u0026 Wednesday 12:30 PM - 2:00 PM Theory [6111]  ",
+                    "Capacity": 40,
+                    "StudentCount": 34,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134655,
+                    "ClassID": "01379",
+                    "Title": "K",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [K]",
+                    "Routine": "Sunday 2:00 PM - 3:30 PM Theory [6109] \u0026 Tuesday 2:00 PM - 3:30 PM Theory [6109]  ",
+                    "Capacity": 40,
+                    "StudentCount": 33,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134656,
+                    "ClassID": "01380",
+                    "Title": "L",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [L]",
+                    "Routine": "Monday 8:00 AM - 9:30 AM Theory [6112] \u0026 Wednesday 8:00 AM - 9:30 AM Theory [6112]  ",
+                    "Capacity": 40,
+                    "StudentCount": 35,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134657,
+                    "ClassID": "01381",
+                    "Title": "M",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [M]",
+                    "Routine": "Monday 12:30 PM - 2:00 PM Theory [6112] \u0026 Wednesday 12:30 PM - 2:00 PM Theory [6112]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134658,
+                    "ClassID": "01382",
+                    "Title": "N",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [N]",
+                    "Routine": "Sunday 12:30 PM - 2:00 PM Theory [6109] \u0026 Tuesday 12:30 PM - 2:00 PM Theory [6109]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134659,
+                    "ClassID": "01383",
+                    "Title": "O",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [O]",
+                    "Routine": "Monday 11:00 AM - 12:30 PM Theory [6112] \u0026 Wednesday 11:00 AM - 12:30 PM Theory [6112]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 134660,
+                    "ClassID": "01384",
+                    "Title": "P",
+                    "Description": "MATRICES, VECTORS, FOURIER ANALYSIS [P]",
+                    "Routine": "Sunday 8:00 AM - 9:30 AM Theory [6112] \u0026 Tuesday 8:00 AM - 9:30 AM Theory [6112]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                    
+                    
+                    
+                }
+            ],
+            "CurriculumID": 309,
+            "Status": "Registered"
+        },
+        {
+            "ID": 186,
+            "Title": "OBJECT ORIENTED PROGRAMMING 2 ",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 1,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [],
+            "CurriculumID": 309,
+            "Status": "None"
+        },
+        {
+            "ID": 620,
+            "Title": "PRINCIPLES OF ACCOUNTING",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [],
+            "CurriculumID": 309,
+            "Status": "None"
+        },
+        {
+            "ID": 663,
+            "Title": "ELECTRONIC DEVICES",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [
+                {
+                    "ID": 133744,
+                    "ClassID": "00468",
+                    "Title": "I",
+                    "Description": "ELECTRONIC DEVICES [I]",
+                    "Routine": "Sunday 12:30 PM - 2:00 PM Theory [6212] \u0026 Tuesday 12:30 PM - 2:00 PM Theory [6212]  ",
+                    "Capacity": 44,
+                    "StudentCount": 42,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133747,
+                    "ClassID": "00471",
+                    "Title": "L",
+                    "Description": "ELECTRONIC DEVICES [L]",
+                    "Routine": "Sunday 8:00 AM - 9:30 AM Theory [6209] \u0026 Tuesday 8:00 AM - 9:30 AM Theory [6209]  ",
+                    "Capacity": 44,
+                    "StudentCount": 44,
+                    "Registered": true
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133748,
+                    "ClassID": "00472",
+                    "Title": "M",
+                    "Description": "ELECTRONIC DEVICES [M]",
+                    "Routine": "Monday 8:00 AM - 9:30 AM Theory [3119] \u0026 Wednesday 8:00 AM - 9:30 AM Theory [3119]  ",
+                    "Capacity": 44,
+                    "StudentCount": 41,
+                    "Registered": false
+                    
+                    
+                    
+                }
+            ],
+            "CurriculumID": 309,
+            "Status": "Registered"
+        },
+        {
+            "ID": 1397,
+            "Title": "OBJECT ORIENTED ANALYSIS AND DESIGN",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [
+                {
+                    "ID": 133466,
+                    "ClassID": "00190",
+                    "Title": "B",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [B]",
+                    "Routine": "Sunday 9:30 AM - 11:00 AM Theory [1107] \u0026 Tuesday 9:30 AM - 11:00 AM Theory [1107]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133467,
+                    "ClassID": "00191",
+                    "Title": "C",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [C]",
+                    "Routine": "Sunday 11:00 AM - 12:30 PM Theory [1107] \u0026 Tuesday 11:00 AM - 12:30 PM Theory [1107]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133468,
+                    "ClassID": "00192",
+                    "Title": "D",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [D]",
+                    "Routine": "Monday 8:00 AM - 9:30 AM Theory [1107] \u0026 Wednesday 8:00 AM - 9:30 AM Theory [1107]  ",
+                    "Capacity": 40,
+                    "StudentCount": 26,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133469,
+                    "ClassID": "00193",
+                    "Title": "E",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [E]",
+                    "Routine": "Monday 9:30 AM - 11:00 AM Theory [1107] \u0026 Wednesday 9:30 AM - 11:00 AM Theory [1107]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133470,
+                    "ClassID": "00194",
+                    "Title": "F",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [F]",
+                    "Routine": "Monday 11:00 AM - 12:30 PM Theory [1107] \u0026 Wednesday 11:00 AM - 12:30 PM Theory [1107]  ",
+                    "Capacity": 40,
+                    "StudentCount": 38,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133471,
+                    "ClassID": "00195",
+                    "Title": "G",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [G]",
+                    "Routine": "Sunday 11:00 AM - 12:30 PM Theory [1105] \u0026 Tuesday 11:00 AM - 12:30 PM Theory [1105]  ",
+                    "Capacity": 40,
+                    "StudentCount": 36,
+                    "Registered": true
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133472,
+                    "ClassID": "00196",
+                    "Title": "H",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [H]",
+                    "Routine": "Sunday 12:30 PM - 2:00 PM Theory [1107] \u0026 Tuesday 12:30 PM - 2:00 PM Theory [1107]  ",
+                    "Capacity": 40,
+                    "StudentCount": 33,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133473,
+                    "ClassID": "00197",
+                    "Title": "I",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [I]",
+                    "Routine": "Sunday 2:00 PM - 3:30 PM Theory [1107] \u0026 Tuesday 2:00 PM - 3:30 PM Theory [1107]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133475,
+                    "ClassID": "00199",
+                    "Title": "K",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [K]",
+                    "Routine": "Monday 9:30 AM - 11:00 AM Theory [1105] \u0026 Wednesday 9:30 AM - 11:00 AM Theory [1105]  ",
+                    "Capacity": 40,
+                    "StudentCount": 32,
+                    "Registered": false
+                    
+                    
+                    
+                },
+                {
+                    "ID": 133476,
+                    "ClassID": "00200",
+                    "Title": "L",
+                    "Description": "OBJECT ORIENTED ANALYSIS AND DESIGN [L]",
+                    "Routine": "Monday 12:30 PM - 2:00 PM Theory [1106] \u0026 Wednesday 12:30 PM - 2:00 PM Theory [1106]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                    
+                    
+                    
+                }
+            ],
+            "CurriculumID": 309,
+            "Status": "Registered"
+        },
+        {
+            "ID": 1647,
+            "Title": "BANGLADESH STUDIES [FST]",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [],
+            "CurriculumID": 309,
+            "Status": "None"
+        },
+        {
+            "ID": 1786,
+            "Title": "COMPUTER AIDED DESIGN \u0026 DRAFTING",
+            "LecCredit": 1,
+            "SciCredit": 1,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [],
+            "CurriculumID": 309,
+            "Status": "None"
+        },
+        {
+            "ID": 1791,
+            "Title": "COMPUTATIONAL STATISTICS AND PROBABILITY",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [
+                {
+                    "ID": 134666,
+                    "ClassID": "01390",
+                    "Title": "F",
+                    "Description": "COMPUTATIONAL STATISTICS AND PROBABILITY [F]",
+                    "Routine": "Monday 11:00 AM - 12:30 PM Theory [6203] \u0026 Wednesday 11:00 AM - 12:30 PM Theory [6203]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                },
+                {
+                    "ID": 134668,
+                    "ClassID": "01392",
+                    "Title": "H",
+                    "Description": "COMPUTATIONAL STATISTICS AND PROBABILITY [H]",
+                    "Routine": "Monday 12:30 PM - 2:00 PM Theory [6203] \u0026 Wednesday 12:30 PM - 2:00 PM Theory [6203]  ",
+                    "Capacity": 40,
+                    "StudentCount": 40,
+                    "Registered": true
+                },
+                {
+                    "ID": 134670,
+                    "ClassID": "01394",
+                    "Title": "J",
+                    "Description": "COMPUTATIONAL STATISTICS AND PROBABILITY [J]",
+                    "Routine": "Monday 2:00 PM - 3:30 PM Theory [6203] \u0026 Wednesday 2:00 PM - 3:30 PM Theory [6203]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                },
+                {
+                    "ID": 134671,
+                    "ClassID": "01395",
+                    "Title": "K",
+                    "Description": "COMPUTATIONAL STATISTICS AND PROBABILITY [K]",
+                    "Routine": "Sunday 9:30 AM - 11:00 AM Theory [6112] \u0026 Tuesday 9:30 AM - 11:00 AM Theory [6112]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                },
+                {
+                    "ID": 134672,
+                    "ClassID": "01396",
+                    "Title": "L",
+                    "Description": "COMPUTATIONAL STATISTICS AND PROBABILITY [L]",
+                    "Routine": "Monday 9:30 AM - 11:00 AM Theory [6113] \u0026 Wednesday 9:30 AM - 11:00 AM Theory [6113]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                },
+                {
+                    "ID": 134675,
+                    "ClassID": "01399",
+                    "Title": "O",
+                    "Description": "COMPUTATIONAL STATISTICS AND PROBABILITY [O]",
+                    "Routine": "Sunday 8:00 AM - 9:30 AM Theory [6114] \u0026 Tuesday 8:00 AM - 9:30 AM Theory [6114]  ",
+                    "Capacity": 40,
+                    "StudentCount": 38,
+                    "Registered": false
+                },
+                {
+                    "ID": 134677,
+                    "ClassID": "01401",
+                    "Title": "Q",
+                    "Description": "COMPUTATIONAL STATISTICS AND PROBABILITY [Q]",
+                    "Routine": "Monday 8:00 AM - 9:30 AM Theory [6113] \u0026 Wednesday 8:00 AM - 9:30 AM Theory [6113]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                }
+            ],
+            "CurriculumID": 309,
+            "Status": "Registered"
+        },
+        {
+            "ID": 1851,
+            "Title": "INTRODUCTION TO ELECTRICAL CIRCUITS LAB",
+            "LecCredit": 1,
+            "SciCredit": 1,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [],
+            "CurriculumID": 309,
+            "Status": "None"
+        },
+        {
+            "ID": 11,
+            "Title": "ADVANCE DATABASE MANAGEMENT SYSTEM",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 1,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [],
+            "CurriculumID": 338,
+            "Status": "None"
+        },
+        {
+            "ID": 26,
+            "Title": "BASIC MECHANICAL ENGG.",
+            "LecCredit": 3,
+            "SciCredit": 0,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [
+                {
+                    "ID": 133618,
+                    "ClassID": "00342",
+                    "Title": "A",
+                    "Description": "BASIC MECHANICAL ENGG. [A]",
+                    "Routine": "Monday 11:00 AM - 12:30 PM Theory [1114] \u0026 Wednesday 11:00 AM - 12:30 PM Theory [1114]  ",
+                    "Capacity": 40,
+                    "StudentCount": 39,
+                    "Registered": false
+                },
+                {
+                    "ID": 133619,
+                    "ClassID": "00343",
+                    "Title": "B",
+                    "Description": "BASIC MECHANICAL ENGG. [B]",
+                    "Routine": "Sunday 8:00 AM - 9:30 AM Theory [1113] \u0026 Tuesday 8:00 AM - 9:30 AM Theory [1113]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                },
+                {
+                    "ID": 133620,
+                    "ClassID": "00344",
+                    "Title": "C",
+                    "Description": "BASIC MECHANICAL ENGG. [C]",
+                    "Routine": "Monday 9:30 AM - 11:00 AM Theory [1114] \u0026 Wednesday 9:30 AM - 11:00 AM Theory [1114]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                },
+                {
+                    "ID": 133622,
+                    "ClassID": "00346",
+                    "Title": "E",
+                    "Description": "BASIC MECHANICAL ENGG. [E]",
+                    "Routine": "Monday 12:30 PM - 2:00 PM Theory [1114] \u0026 Wednesday 12:30 PM - 2:00 PM Theory [1114]  ",
+                    "Capacity": 40,
+                    "StudentCount": 31,
+                    "Registered": false
+                },
+                {
+                    "ID": 133623,
+                    "ClassID": "00347",
+                    "Title": "F",
+                    "Description": "BASIC MECHANICAL ENGG. [F]",
+                    "Routine": "Sunday 2:00 PM - 3:30 PM Theory [1116] \u0026 Tuesday 2:00 PM - 3:30 PM Theory [1116]  ",
+                    "Capacity": 40,
+                    "StudentCount": 37,
+                    "Registered": false
+                },
+                {
+                    "ID": 133624,
+                    "ClassID": "00348",
+                    "Title": "G",
+                    "Description": "BASIC MECHANICAL ENGG. [G]",
+                    "Routine": "Monday 2:00 PM - 3:30 PM Theory [1114] \u0026 Wednesday 2:00 PM - 3:30 PM Theory [1114]  ",
+                    "Capacity": 40,
+                    "StudentCount": 36,
+                    "Registered": false
+                },
+                {
+                    "ID": 133625,
+                    "ClassID": "00349",
+                    "Title": "H",
+                    "Description": "BASIC MECHANICAL ENGG. [H]",
+                    "Routine": "Sunday 9:30 AM - 11:00 AM Theory [1112] \u0026 Tuesday 9:30 AM - 11:00 AM Theory [1112]  ",
+                    "Capacity": 40,
+                    "StudentCount": 38,
+                    "Registered": false
+                },
+                {
+                    "ID": 133626,
+                    "ClassID": "00350",
+                    "Title": "I",
+                    "Description": "BASIC MECHANICAL ENGG. [I]",
+                    "Routine": "Monday 8:00 AM - 9:30 AM Theory [1113] \u0026 Wednesday 8:00 AM - 9:30 AM Theory [1113]  ",
+                    "Capacity": 40,
+                    "StudentCount": 34,
+                    "Registered": false
+                }
+            ],
+            "CurriculumID": 338,
+            "Status": "None"
+        },
+        {
+            "ID": 82,
+            "Title": "DIGITAL SIGNAL PROCESSING",
+            "LecCredit": 3,
+            "SciCredit": 1,
+            "CompCredit": 0,
+            "LanCredit": 0,
+            "StudioCredit": 0,
+            "RegisterableSections": [
+                {
+                    "ID": 133662,
+                    "ClassID": "00386",
+                    "Title": "A",
+                    "Description": "DIGITAL SIGNAL PROCESSING [A]",
+                    "Routine": "Sunday 2:00 PM - 4:00 PM Theory [D0503] \u0026 Tuesday 11:00 AM - 2:00 PM Lab [D0309]  ",
+                    "Capacity": 42,
+                    "StudentCount": 39,
+                    "Registered": false
+                },
+                {
+                    "ID": 133663,
+                    "ClassID": "00387",
+                    "Title": "B",
+                    "Description": "DIGITAL SIGNAL PROCESSING [B]",
+                    "Routine": "Monday 8:00 AM - 10:00 AM Theory [D0502] \u0026 Wednesday 8:00 AM - 11:00 AM Lab [D0311]  ",
+                    "Capacity": 42,
+                    "StudentCount": 41,
+                    "Registered": false
+                },
+                {
+                    "ID": 133666,
+                    "ClassID": "00390",
+                    "Title": "E",
+                    "Description": "DIGITAL SIGNAL PROCESSING [E]",
+                    "Routine": "Sunday 10:00 AM - 12:00 PM Theory [D0503] \u0026 Monday 11:00 AM - 2:00 PM Lab [D0309]  ",
+                    "Capacity": 42,
+                    "StudentCount": 34,
+                    "Registered": false
+                },
+                {
+                    "ID": 133667,
+                    "ClassID": "00391",
+                    "Title": "F",
+                    "Description": "DIGITAL SIGNAL PROCESSING [F]",
+                    "Routine": "Sunday 12:00 PM - 2:00 PM Theory [D0502] \u0026 Tuesday 2:00 PM - 5:00 PM Lab [D0311]  ",
+                    "Capacity": 42,
+                    "StudentCount": 40,
+                    "Registered": false
+                }
+            ],
+            "CurriculumID": 338,
+            "Status": "None"
+        }
+    ],
+    "Student": {
+        "StudentID": "19-40819-2"
+    }
+}
